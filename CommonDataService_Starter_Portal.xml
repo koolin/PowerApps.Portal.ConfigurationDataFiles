@@ -21,9 +21,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
-    <filter>&lt;filter type="and"&gt;
-  &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
-&lt;/filter&gt;</filter>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_entitypermission" displayname="Entity Permission" etc="10026" primaryidfield="adx_entitypermissionid" primarynamefield="adx_entityname" disableplugins="true">
     <fields>
@@ -1189,15 +1191,17 @@
       <field displayname="Title" name="subject" type="string" />
     </fields>
     <relationships />
-    <filter>&lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
-  &lt;entity name="annotation"&gt;
-    &lt;link-entity name="adx_webfile" from="adx_webfileid" to="objectid" link-type="inner" alias="ab"&gt;
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="annotation"&gt;
+      &lt;link-entity name="adx_webfile" from="adx_webfileid" to="objectid" link-type="inner" alias="ab"&gt;
       &lt;filter type="and"&gt;
-        &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
       &lt;/filter&gt;
-    &lt;/link-entity&gt;
-  &lt;/entity&gt;
-&lt;/fetch&gt;</filter>
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_ad" displayname="Ad" etc="10025" primaryidfield="adx_adid" primarynamefield="adx_name" disableplugins="true">
     <fields>
