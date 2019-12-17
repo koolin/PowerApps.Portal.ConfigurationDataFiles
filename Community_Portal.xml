@@ -22,7 +22,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -56,7 +56,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -83,7 +83,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -125,7 +125,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -149,7 +149,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -174,7 +174,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -219,7 +219,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -240,7 +240,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -262,7 +262,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -284,7 +284,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -307,7 +307,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -350,7 +350,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -392,7 +392,7 @@
       &lt;entity name="adx_weblink"&gt;
       &lt;link-entity name="adx_weblinkset" from="adx_weblinksetid" to="adx_weblinksetid" link-type="inner" alias="an"&gt;
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" uiname="Starter Portal" uitype="adx_website" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" uiname="Starter Portal" uitype="adx_website" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
       &lt;/link-entity&gt;
       &lt;/entity&gt;
@@ -420,7 +420,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -479,7 +479,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -506,7 +506,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -534,7 +534,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -556,7 +556,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -585,7 +585,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -611,7 +611,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -633,7 +633,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -759,7 +759,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -824,7 +824,7 @@
       &lt;entity name="adx_entityformmetadata"&gt;
       &lt;link-entity name="adx_entityform" from="adx_entityformid" to="adx_entityform" link-type="inner" alias="ao"&gt;
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" uiname="Starter Portal" uitype="adx_website" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" uiname="Starter Portal" uitype="adx_website" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
       &lt;/link-entity&gt;
       &lt;/entity&gt;
@@ -908,7 +908,7 @@
       &lt;link-entity name="adx_webformstep" from="adx_webformstepid" to="adx_webformstep" link-type="inner" alias="ap"&gt;
       &lt;link-entity name="adx_webform" from="adx_webformid" to="adx_webform" link-type="inner" alias="aq"&gt;
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
       &lt;/link-entity&gt;
       &lt;/link-entity&gt;
@@ -993,7 +993,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -1030,7 +1030,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -1169,7 +1169,7 @@
       &lt;entity name="adx_webformstep"&gt;
       &lt;link-entity name="adx_webform" from="adx_webformid" to="adx_webform" link-type="inner" alias="ar"&gt;
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
       &lt;/link-entity&gt;
       &lt;/entity&gt;
@@ -1221,7 +1221,7 @@
       &lt;entity name="annotation"&gt;
       &lt;link-entity name="adx_webfile" from="adx_webfileid" to="objectid" link-type="inner" alias="ab"&gt;
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
       &lt;/link-entity&gt;
       &lt;/entity&gt;
@@ -1259,7 +1259,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -1282,7 +1282,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -1309,7 +1309,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -1335,7 +1335,7 @@
       &lt;entity name="adx_polloption"&gt;
       &lt;link-entity name="adx_poll" from="adx_pollid" to="adx_pollid" link-type="inner" alias="as"&gt;
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
       &lt;/link-entity&gt;
       &lt;/entity&gt;
@@ -1361,7 +1361,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -1396,7 +1396,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -1417,6 +1417,17 @@
     <relationships>
       <relationship name="adx_communityforumaccesspermission_webrole" manyToMany="true" isreflexive="false" relatedEntityName="adx_communityforumaccesspermission_webrole" m2mTargetEntity="adx_webrole" m2mTargetEntityPrimaryKey="adx_webroleid" />
     </relationships>
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="adx_communityforumaccesspermission"&gt;
+      &lt;link-entity name="adx_communityforum" from="adx_communityforumid" to="adx_forumid" link-type="inner" alias="ab"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_communityforumannouncement" displayname="Forum Announcement" etc="10081" primaryidfield="adx_communityforumannouncementid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1435,6 +1446,17 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
     </fields>
     <relationships />
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="adx_communityforumannouncement"&gt;
+      &lt;link-entity name="adx_communityforum" from="adx_communityforumid" to="adx_forumid" link-type="inner" alias="aa"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_forumthreadtype" displayname="Forum Thread Type" etc="10085" primaryidfield="adx_forumthreadtypeid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1456,7 +1478,7 @@
     <relationships />
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -1487,7 +1509,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
@@ -1519,7 +1541,7 @@
     </relationships>
     <filter>
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" value="{F46B70CC-580B-4F1A-87C3-41DEB48EB90D}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{2AB10DAB-D681-4911-B881-CC99413F07B6}" /&gt;
       &lt;/filter&gt;
     </filter>
   </entity>
