@@ -21,6 +21,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_entitypermission" displayname="Entity Permission" etc="10026" primaryidfield="adx_entitypermissionid" primarynamefield="adx_entityname" disableplugins="true">
     <fields>
@@ -50,6 +55,11 @@
     <relationships>
       <relationship name="adx_entitypermission_webrole" manyToMany="true" isreflexive="false" relatedEntityName="adx_entitypermission_webrole" m2mTargetEntity="adx_webrole" m2mTargetEntityPrimaryKey="adx_webroleid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_pagetemplate" displayname="Page Template" etc="10010" primaryidfield="adx_pagetemplateid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -72,6 +82,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_portallanguage" displayname="Portal Language" etc="10036" primaryidfield="adx_portallanguageid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -109,6 +124,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_publishingstatetransitionrule" displayname="Publishing State Transition Rule" etc="10038" primaryidfield="adx_publishingstatetransitionruleid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -128,6 +148,11 @@
     <relationships>
       <relationship name="adx_publishingstatetransitionrule_webrole" manyToMany="true" isreflexive="false" relatedEntityName="adx_publishingstatetransitionrule_webrole" m2mTargetEntity="adx_webrole" m2mTargetEntityPrimaryKey="adx_webroleid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_redirect" displayname="Redirect" etc="10039" primaryidfield="adx_redirectid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -148,6 +173,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_setting" displayname="Setting" etc="10040" primaryidfield="adx_settingid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -188,6 +218,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_sitemarker" displayname="Site Marker" etc="10011" primaryidfield="adx_sitemarkerid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -204,6 +239,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_sitesetting" displayname="Site Setting" etc="10012" primaryidfield="adx_sitesettingid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -221,6 +261,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_tag" displayname="Tag" etc="10042" primaryidfield="adx_tagid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -238,6 +283,11 @@
     <relationships>
       <relationship name="adx_webpage_tag" manyToMany="true" isreflexive="false" relatedEntityName="adx_webpage_tag" m2mTargetEntity="adx_webpage" m2mTargetEntityPrimaryKey="adx_webpageid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_urlhistory" displayname="URL History" etc="10043" primaryidfield="adx_urlhistoryid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -256,6 +306,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_webfile" displayname="Web File" etc="10013" primaryidfield="adx_webfileid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -292,6 +347,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_weblink" displayname="Web Link" etc="10014" primaryidfield="adx_weblinkid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -326,6 +386,17 @@
       <field displayname="Web Link Set" name="adx_weblinksetid" type="entityreference" lookupType="adx_weblinkset" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="adx_weblink"&gt;
+      &lt;link-entity name="adx_weblinkset" from="adx_weblinksetid" to="adx_weblinksetid" link-type="inner" alias="an"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" uiname="Starter Portal" uitype="adx_website" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_weblinkset" displayname="Web Link Set" etc="10015" primaryidfield="adx_weblinksetid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -346,6 +417,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_webpage" displayname="Web Page" etc="10017" primaryidfield="adx_webpageid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -400,6 +476,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_webpageaccesscontrolrule" displayname="Web Page Access Control Rule" etc="10045" primaryidfield="adx_webpageaccesscontrolruleid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -422,6 +503,11 @@
       <relationship name="adx_accesscontrolrule_publishingstate" manyToMany="true" isreflexive="false" relatedEntityName="adx_accesscontrolrule_publishingstate" m2mTargetEntity="adx_publishingstate" m2mTargetEntityPrimaryKey="adx_publishingstateid" />
       <relationship name="adx_webpageaccesscontrolrule_webrole" manyToMany="true" isreflexive="false" relatedEntityName="adx_webpageaccesscontrolrule_webrole" m2mTargetEntity="adx_webrole" m2mTargetEntityPrimaryKey="adx_webroleid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_webrole" displayname="Web Role" etc="10018" primaryidfield="adx_webroleid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -445,6 +531,11 @@
       <relationship name="adx_webrole_account" manyToMany="true" isreflexive="false" relatedEntityName="adx_webrole_account" m2mTargetEntity="account" m2mTargetEntityPrimaryKey="accountid" />
       <relationship name="adx_webrole_systemuser" manyToMany="true" isreflexive="false" relatedEntityName="adx_webrole_systemuser" m2mTargetEntity="systemuser" m2mTargetEntityPrimaryKey="systemuserid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_webtemplate" displayname="Web Template" etc="10051" primaryidfield="adx_webtemplateid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -462,6 +553,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_website" displayname="Website" etc="10019" primaryidfield="adx_websiteid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -486,6 +582,11 @@
       <relationship name="adx_website_list" manyToMany="true" isreflexive="false" relatedEntityName="adx_website_list" m2mTargetEntity="list" m2mTargetEntityPrimaryKey="listid" />
       <relationship name="adx_website_sponsor" manyToMany="true" isreflexive="false" relatedEntityName="adx_website_sponsor" m2mTargetEntity="account" m2mTargetEntityPrimaryKey="accountid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_websiteaccess" displayname="Website Access" etc="10048" primaryidfield="adx_websiteaccessid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -507,6 +608,11 @@
     <relationships>
       <relationship name="adx_websiteaccess_webrole" manyToMany="true" isreflexive="false" relatedEntityName="adx_websiteaccess_webrole" m2mTargetEntity="adx_webrole" m2mTargetEntityPrimaryKey="adx_webroleid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_websitelanguage" displayname="Website Language" etc="10050" primaryidfield="adx_websitelanguageid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -524,6 +630,11 @@
       <field updateCompare="true" displayname="Website Language" name="adx_websitelanguageid" type="guid" primaryKey="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_webnotificationurl" displayname="Web Notification URL" etc="10016" primaryidfield="adx_webnotificationurlid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -645,6 +756,11 @@
       <field displayname="Zip/Postal Code Field Name" name="adx_geolocation_postalcodefieldname" type="string" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_entityformmetadata" displayname="Entity Form Metadata" etc="10070" primaryidfield="adx_entityformmetadataid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -701,6 +817,17 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
     </fields>
     <relationships />
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="adx_entityformmetadata"&gt;
+      &lt;link-entity name="adx_entityform" from="adx_entityformid" to="adx_entityform" link-type="inner" alias="ao"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" uiname="Starter Portal" uitype="adx_website" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_webformmetadata" displayname="Web Form Metadata" etc="10073" primaryidfield="adx_webformmetadataid" primarynamefield="adx_attributelogicalname" disableplugins="true">
     <fields>
@@ -773,6 +900,19 @@
       <field displayname="Web Form Step" name="adx_webformstep" type="entityreference" lookupType="adx_webformstep" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="adx_webformmetadata"&gt;
+      &lt;link-entity name="adx_webformstep" from="adx_webformstepid" to="adx_webformstep" link-type="inner" alias="ap"&gt;
+      &lt;link-entity name="adx_webform" from="adx_webformid" to="adx_webform" link-type="inner" alias="aq"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_entitylist" displayname="Entity List" etc="10071" primaryidfield="adx_entitylistid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -849,6 +989,11 @@
       <field displayname="Zoom" name="adx_map_zoom" type="number" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_webform" displayname="Web Form" etc="10072" primaryidfield="adx_webformid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -881,6 +1026,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_webformstep" displayname="Web Form Step" etc="10075" primaryidfield="adx_webformstepid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1011,6 +1161,17 @@
       <field displayname="Zip/Postal Code Field Name" name="adx_geolocation_postalcodefieldname" type="string" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="adx_webformstep"&gt;
+      &lt;link-entity name="adx_webform" from="adx_webformid" to="adx_webform" link-type="inner" alias="ar"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_contentaccesslevel" displayname="Content Access Level" etc="10098" primaryidfield="adx_contentaccesslevelid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1053,6 +1214,17 @@
       <field displayname="Title" name="subject" type="string" />
     </fields>
     <relationships />
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="annotation"&gt;
+      &lt;link-entity name="adx_webfile" from="adx_webfileid" to="objectid" link-type="inner" alias="ab"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_ad" displayname="Ad" etc="10025" primaryidfield="adx_adid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1083,6 +1255,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_adplacement" displayname="Ad Placement" etc="10026" primaryidfield="adx_adplacementid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1101,6 +1278,11 @@
     <relationships>
       <relationship name="adx_adplacement_ad" manyToMany="true" isreflexive="false" relatedEntityName="adx_adplacement_ad" m2mTargetEntity="adx_ad" m2mTargetEntityPrimaryKey="adx_adid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_poll" displayname="Poll" etc="10034" primaryidfield="adx_pollid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1123,6 +1305,11 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_polloption" displayname="Poll Option" etc="10035" primaryidfield="adx_polloptionid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1141,6 +1328,17 @@
       <field displayname="Votes" name="adx_votes" type="number" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="adx_polloption"&gt;
+      &lt;link-entity name="adx_poll" from="adx_pollid" to="adx_pollid" link-type="inner" alias="as"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_pollplacement" displayname="Poll Placement" etc="10036" primaryidfield="adx_pollplacementid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1159,6 +1357,11 @@
     <relationships>
       <relationship name="adx_pollplacement_poll" manyToMany="true" isreflexive="false" relatedEntityName="adx_pollplacement_poll" m2mTargetEntity="adx_poll" m2mTargetEntityPrimaryKey="adx_pollid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_communityforum" displayname="Forum" etc="10078" primaryidfield="adx_communityforumid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1189,6 +1392,11 @@
     <relationships>
       <relationship name="adx_forum_activityalert" manyToMany="true" isreflexive="false" relatedEntityName="adx_forum_activityalert" m2mTargetEntity="contact" m2mTargetEntityPrimaryKey="contactid" />
     </relationships>
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
   <entity name="adx_communityforumaccesspermission" displayname="Forum Access Permission" etc="10079" primaryidfield="adx_communityforumaccesspermissionid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1207,6 +1415,17 @@
     <relationships>
       <relationship name="adx_communityforumaccesspermission_webrole" manyToMany="true" isreflexive="false" relatedEntityName="adx_communityforumaccesspermission_webrole" m2mTargetEntity="adx_webrole" m2mTargetEntityPrimaryKey="adx_webroleid" />
     </relationships>
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="adx_communityforumaccesspermission"&gt;
+      &lt;link-entity name="adx_communityforum" from="adx_communityforumid" to="adx_forumid" link-type="inner" alias="ab"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_communityforumannouncement" displayname="Forum Announcement" etc="10081" primaryidfield="adx_communityforumannouncementid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1225,6 +1444,17 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
     </fields>
     <relationships />
+    <filter>
+      &lt;fetch version="1.0" mapping="logical" distinct="false"&gt;
+      &lt;entity name="adx_communityforumannouncement"&gt;
+      &lt;link-entity name="adx_communityforum" from="adx_communityforumid" to="adx_forumid" link-type="inner" alias="aa"&gt;
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+      &lt;/link-entity&gt;
+      &lt;/entity&gt;
+      &lt;/fetch&gt;
+    </filter>
   </entity>
   <entity name="adx_forumthreadtype" displayname="Forum Thread Type" etc="10085" primaryidfield="adx_forumthreadtypeid" primarynamefield="adx_name" disableplugins="true">
     <fields>
@@ -1244,5 +1474,10 @@
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
     </fields>
     <relationships />
+    <filter>
+      &lt;filter type="and"&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;/filter&gt;
+    </filter>
   </entity>
 </entities>
