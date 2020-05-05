@@ -391,7 +391,7 @@
       &lt;entity name="adx_weblink"&gt;
       &lt;link-entity name="adx_weblinkset" from="adx_weblinksetid" to="adx_weblinksetid" link-type="inner" alias="an"&gt;
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" uiname="Starter Portal" uitype="adx_website" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
       &lt;/filter&gt;
       &lt;/link-entity&gt;
       &lt;/entity&gt;
@@ -822,7 +822,7 @@
       &lt;entity name="adx_entityformmetadata"&gt;
       &lt;link-entity name="adx_entityform" from="adx_entityformid" to="adx_entityform" link-type="inner" alias="ao"&gt;
       &lt;filter type="and"&gt;
-      &lt;condition attribute="adx_websiteid" operator="eq" uiname="Starter Portal" uitype="adx_website" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
+      &lt;condition attribute="adx_websiteid" operator="eq" value="{6d6b3012-e709-4c45-a00d-df4b3befc518}" /&gt;
       &lt;/filter&gt;
       &lt;/link-entity&gt;
       &lt;/entity&gt;
